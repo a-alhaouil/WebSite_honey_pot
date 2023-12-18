@@ -1,0 +1,288 @@
+body {
+    margin: 0;
+    padding: 15px 20px;
+    min-height: 99%;
+    width: 100%;
+    min-width: 550px;
+    color: #519975;
+    background: #211D1B;
+    font-family: cursor, monospace;
+    overflow-x: hidden;
+  }
+  ::selection {
+    color: #211830;
+    background-color: #519975;
+  }
+  ::-moz-selection {
+    color: #211830;
+    background-color: #519975;
+  }
+  textarea {
+    left: -1000px;
+    position: absolute;
+  }
+ 
+  b {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  /* Cursor Start */
+  .cursor {
+    font-size: 12px;
+    color: #73ABAD;
+    background-color: #73ABAD;
+    position: relative;
+    opacity: 1;
+    height: 1.5em;
+    width: 10px;
+    max-width: 10px;
+    transform: translateY(4px);
+    overflow: hidden;
+    text-indent: -5px;
+    display: inline-block;
+    text-decoration: blink;
+    animation: blinker 1s linear infinite;
+  }
+  .cursor {
+    font-size: 12px;
+    color: #73ABAD;
+    background-color: #73ABAD;
+    position: relative;
+    opacity: 1;
+    height: 1.5em;
+    width: 10px;
+    max-width: 10px;
+    transform: translateY(4px);
+    overflow: hidden;
+    text-indent: -5px;
+    display: inline-block;
+    text-decoration: blink;
+    animation: blinker 1s linear infinite;
+  }
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+  #command {
+    cursor: text;
+    height: 50px;
+    color: #73ABAD;
+  }
+  #liner {
+    line-height: 1.3em;
+    margin-top: -2px;
+    animation: show 0.5s ease forwards;
+    animation-delay: 1.2s;
+    opacity: 0;
+  }
+  #liner::before {
+    color: #519975;
+    content: "root [/home/abdessamad]:~$";
+  }
+  #liner.password::before {
+    content: "Password:";
+  }
+  @keyframes show {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  /* Cursor End */
+  p {
+    display: block;
+    line-height: 1.3em;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    
+    margin: 0;
+    letter-spacing: 0.05em;
+    animation: typing 0.5s steps(30, end);
+  }
+  h4{
+    display: block;
+    line-height: 1.3em;
+    margin: 0;
+    overflow: hidden;
+    white-space: wrap;
+    
+    margin: 0;
+    letter-spacing: 0.05em;
+    animation: typing 0.2s steps(100, end);
+  }
+  .no-animation {
+    animation: typing 0 steps(30, end);
+  }
+  .margin {
+    margin-left: 20px;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  .index {
+    color: #DCDCCC;
+  }
+  .color2 {
+    color: #B89076;
+  }
+  .command {
+    color: #73ABAD;
+    text-shadow: 0 0 5px #73ABAD; 
+  }
+  .error {
+    color: #B89076;
+  }
+  .white {
+    color: #fff;
+  }
+  .inherit,
+  a {
+    color: #519975;
+  }
+  a {
+    text-decoration: inherit;
+  }
+
+  a:focus {
+    outline: 0;
+  }
+  /* HEADER */
+  .main-head{
+    background-color: #519975;
+    margin-top: -15px;
+    margin-left: -20px;
+    color: #DCDCCC;
+
+  }
+
+  .logo{
+    margin-top: 20px;
+    margin-left:  20px;
+    margin-bottom: 20px;
+  }
+ 
+  ul{
+    list-style: none;
+  }
+  nav ul li{
+   
+   cursor: pointer;
+  }
+  nav{
+    width: auto;
+    
+  }
+  
+/*-------------------WINBOX------------*/
+  .hidden {
+  display: none;
+  }
+  .hiddens{
+    display: none;
+  }
+.wb-body{
+    background-color: #111;
+    padding: 20px;
+}
+.wb-body::-webkit-scrollbar {
+  width: 12px;
+}
+.wb-body::-webkit-scrollbar-track {
+  background: transparent;
+}
+.wb-body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #0f6843;
+}
+.wb-body::-webkit-scrollbar-thumb:window-inactive {
+background: #181f2a;
+}
+.wb-body::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/*-------card instruction---------*/
+.card { 
+  
+  background-color: #519975;
+  
+  border-radius: 5px;
+  color: #181f2a;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
+  border: 2px solid #519975;
+ 
+  
+}
+
+
+h2 {
+  margin-top: 0;
+}
+
+
+button {
+  background-color: #26223a;
+  border: none;
+  color: #DCDCCC;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/*--------------------index--------------*/
+
+.cardd{
+ 
+  align-items: center;
+  
+  font-size: 25px;
+  color: #DCDCCC;
+  
+ 
+ 
+}
+h3{
+  align-items: center;
+
+}
+#introduction{
+  font-size: xx-large;
+  color: #DCDCCC;
+  text-align: center;
+  margin: auto;
+}
+.main-heads{
+  background-color: #519975;
+  margin-top: -15px;
+  margin-left: -20px;
+  color: #DCDCCC;
+
+}
+
+.logos{
+  margin-top: 20px;
+  margin-left:  20px;
+  margin-bottom: 20px;
+}
+.hid{
+  display: none;
+}
+.hidd{
+  display: none;
+}
