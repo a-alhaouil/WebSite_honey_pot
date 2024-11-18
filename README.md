@@ -8,7 +8,7 @@
 
 
 
-![Demo]([demo.gif](https://github.com/user-attachments/assets/1b35b709-c269-451d-989c-f2a85f4ca963) <!-- Replace this with a GIF or screenshot of your website -->
+![Demo]([demo.gif](https://github.com/user-attachments/assets/1b35b709-c269-451d-989c-f2a85f4ca963)) <!-- Replace this with a GIF or screenshot of your website -->
 
 A responsive and interactive JavaScript-based website designed to showcase the beauty and value of honey products. This project highlights a creative and elegant UI, smooth navigation, and user-focused features.
 
