@@ -1,18 +1,14 @@
-# WebSite_honey_pot
+# 🐝 Honey Pot Website
  I create a web site that helps you learn how to create your first honey pot
  the idea of that website is present a terminal that you can follow steps and enter some commands that  I prepareted with JavaScript
  that you can understand how a honneypot can be created 
  in other part you can open the scecond terminal contains nmap script taht allows a large number of scan and analyze network traffic and logs
  
-[Watch the Demo Video](https://github.com/user-attachments/assets/1b35b709-c269-451d-989c-f2a85f4ca963)
+<-- [Watch the Demo Video](https://github.com/user-attachments/assets/1b35b709-c269-451d-989c-f2a85f4ca963) -->
 
 
 
-
-
-# 🐝 Honey Pot Website
-
-![Demo](demo.gif) <!-- Replace this with a GIF or screenshot of your website -->
+![Demo]([demo.gif](https://github.com/user-attachments/assets/1b35b709-c269-451d-989c-f2a85f4ca963) <!-- Replace this with a GIF or screenshot of your website -->
 
 A responsive and interactive JavaScript-based website designed to showcase the beauty and value of honey products. This project highlights a creative and elegant UI, smooth navigation, and user-focused features.
 
@@ -32,16 +28,8 @@ A responsive and interactive JavaScript-based website designed to showcase the b
 
 Check out the live demo video below to explore the website in action:
 
-[![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-
 > _Alternatively, you can watch the demo video hosted in the repository:_
-[Download and watch the video](demo.mp4)
-
----
-
-## 🌐 Live Preview
-
-Explore the website here: **[Live Link](https://your-live-link.com)** <!-- Add your live preview link -->
+[Download and watch the video]([demo.mp4](https://github.com/user-attachments/assets/1b35b709-c269-451d-989c-f2a85f4ca963))
 
 ---
 
