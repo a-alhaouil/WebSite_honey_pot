@@ -4,11 +4,11 @@
  that you can understand how a honneypot can be created 
  in other part you can open the scecond terminal contains nmap script taht allows a large number of scan and analyze network traffic and logs
  
-[Watch the Demo Video](https://github.com/user-attachments/assets/1b35b709-c269-451d-989c-f2a85f4ca963) 
+<!-- [Watch the Demo Video](https://github.com/user-attachments/assets/1b35b709-c269-451d-989c-f2a85f4ca963) -->
 
 
 
-![Demo]([demo.gif](https://github.com/user-attachments/assets/1b35b709-c269-451d-989c-f2a85f4ca963)) <!-- Replace this with a GIF or screenshot of your website -->
+![Demo]([demo.mp4](https://github.com/user-attachments/assets/1b35b709-c269-451d-989c-f2a85f4ca963)) <!-- Replace this with a GIF or screenshot of your website -->
 
 A responsive and interactive JavaScript-based website designed to showcase the beauty and value of honey products. This project highlights a creative and elegant UI, smooth navigation, and user-focused features.
 
@@ -29,7 +29,7 @@ A responsive and interactive JavaScript-based website designed to showcase the b
 Check out the live demo video below to explore the website in action:
 
 > _Alternatively, you can watch the demo video hosted in the repository:_
-[watch the video]([demo.mp4](https://github.com/user-attachments/assets/1b35b709-c269-451d-989c-f2a85f4ca963))
+[watch the demo Video]([demo.mp4](https://github.com/user-attachments/assets/1b35b709-c269-451d-989c-f2a85f4ca963))
 
 ---
 
